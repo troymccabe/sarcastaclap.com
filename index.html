@@ -1,1 +1,27 @@
-<!DOCTYPE html><html><head><title>Gooood for yooooooouuuuu...</title><style>body{background:url('http://i.imgur.com/YRXZsex.gif');background-repeat:no-repeat;background-size:100%;}</style><script>var claps=['http://i.imgur.com/YRXZsex.gif','http://i.imgur.com/fDwnEEE.jpg','http://i.imgur.com/OXfQh.jpg','http://i.imgur.com/9JW9b4v.jpg','http://i.imgur.com/VGe31ak.jpg','http://i.imgur.com/hNOfJO2.jpg','http://i.imgur.com/77eOoR4.jpg'];var index = 0;setInterval(function(){index = index == claps.length - 1 ? 0 : ++index;document.body.style.backgroundImage = "url('" + claps[index] + "')";}, 1000);</script></head><body></body></html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gooood for yooooooouuuuu...</title>
+        <style>
+            body {
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var images = [
+                'http://i.imgur.com/YRXZsex.gif',
+                'http://i.imgur.com/YRXZsex.gif',
+                'http://i.imgur.com/fDwnEEE.jpg',
+                'http://i.imgur.com/OXfQh.jpg',
+                'http://i.imgur.com/9JW9b4v.jpg',
+                'http://i.imgur.com/VGe31ak.jpg',
+                'http://i.imgur.com/hNOfJO2.jpg',
+                'http://i.imgur.com/77eOoR4.jpg'
+            ];
+            document.body.style.backgroundImage = "url('" + images[Math.floor(Math.random() * image.length)] + "')";
+        </script>
+    </body>
+</html>
